@@ -1,0 +1,1 @@
+module.exports = require("github:Hypercubed/systemjs-plugin-html@0.0.8/html");
