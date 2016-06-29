@@ -14,7 +14,7 @@ export class Startup {
 
 		this.router = new Router([
 			{url: "", params: {page: "home-page"}},
-			{url: "profile/{name}", params: {page: "profile-page"}},
+			{url: "profile/{userId}", params: {page: "profile-page"}},
 			{url: "about", params: {page: "about-page"}}
 		]);
 
